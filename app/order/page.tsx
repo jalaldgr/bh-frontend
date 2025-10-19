@@ -5,9 +5,9 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { api } from '@/lib/api';
-import { formatPrice } from '@/lib/utils';
-import type { Service, OrderItem } from '@/lib/types';
+import { api } from '@/lib/api.ts';
+import { formatPrice } from '@/lib/utils.ts';
+import type { Service, OrderItem } from '@/lib/types.ts';
 
 export default function OrderPage() {
   const router = useRouter();

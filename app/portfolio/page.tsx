@@ -5,8 +5,8 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { api } from '@/lib/api';
-import type { Portfolio } from '@/lib/types';
+import { api } from '@/lib/api.ts';
+import type { Portfolio } from '@/lib/types.ts';
 import { Code } from 'lucide-react';
 
 export default function PortfolioPage() {

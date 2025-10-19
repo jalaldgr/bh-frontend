@@ -5,9 +5,9 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { api } from '@/lib/api';
-import { formatPrice } from '@/lib/utils';
-import type { Service } from '@/lib/types';
+import { api } from '@/lib/api.ts';
+import { formatPrice } from '@/lib/utils.ts';
+import type { Service } from '@/lib/types.ts';
 import { ArrowRight } from 'lucide-react';
 
 export default function ServicesPage() {

@@ -5,9 +5,9 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { api } from '@/lib/api';
-import { formatPrice } from '@/lib/utils';
-import type { Service } from '@/lib/types';
+import { api } from '@/lib/api.ts';
+import { formatPrice } from '@/lib/utils.ts';
+import type { Service } from '@/lib/types.ts';
 
 export default function ServiceDetailPage({ params }: { params: { slug: string } }) {
   const [service, setService] = useState<Service | null>(null);

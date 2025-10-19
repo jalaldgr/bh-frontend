@@ -5,8 +5,8 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { api } from '@/lib/api';
-import type { Portfolio } from '@/lib/types';
+import { api } from '@/lib/api.ts';
+import type { Portfolio } from '@/lib/types.ts';
 
 export default function PortfolioDetailPage({ params }: { params: { slug: string } }) {
   const [project, setProject] = useState<Portfolio | null>(null);

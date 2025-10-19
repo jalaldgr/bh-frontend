@@ -5,8 +5,8 @@
 
 import { useEffect, useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { api } from '@/lib/api';
-import { formatPrice } from '@/lib/utils';
+import { api } from '@/lib/api.ts';
+import { formatPrice } from '@/lib/utils.ts';
 
 export default function CheckoutPage() {
   const searchParams = useSearchParams();

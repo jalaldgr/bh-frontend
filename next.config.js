@@ -1,13 +1,12 @@
-// ========================================
-// frontend/next.config.js
-// ========================================
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  i18n: {
-    locales: ['fa'],
-    defaultLocale: 'fa',
+  experimental: {
+    appDir: true, // فعال‌سازی App Router (اختیاری اما پیشنهادی)
   },
+  images: {
+    domains: ['localhost', 'example.com'], // دامنه‌هایی که تصویر از آن‌ها لود می‌شود
+  },
+  reactStrictMode: true,
 };
 
 module.exports = nextConfig;

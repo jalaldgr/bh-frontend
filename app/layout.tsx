@@ -194,17 +194,17 @@ export default function RootLayout({
                     </li>
                     <li className="flex gap-2">
                       <span>📱</span>
-                      <a href="tel:09123456789" className="hover:text-blue-400">
-                        09123456789
+                      <a href="tel:09939189894" className="hover:text-blue-400">
+                        09939189894
                       </a>
                     </li>
                     <li className="flex gap-2">
                       <span>📍</span>
-                      <span>تهران، ایران</span>
+                      <span>همدان، آرامگاه بوعلی، بلوار خواجه رشید، کوچه هواپیمایی، ساختمان سپهر، بطقه دوم</span>
                     </li>
                     <li className="flex gap-2">
                       <span>⏰</span>
-                      <span>شنبه - چهارشنبه 9:00 - 18:00</span>
+                      <span>شنبه - چهارشنبه 8:00 - 18:00</span>
                     </li>
                   </ul>
                 </div>
@@ -216,7 +216,7 @@ export default function RootLayout({
               {/* Bottom Footer */}
               <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                 <p className="text-slate-400 text-center md:text-right">
-                  &copy; 2024 {APP_NAME}. تمام حقوق محفوظ است.
+                  &copy; 2025 {APP_NAME}. تمامی حقوق نزد شرکت برنا هوش همدان محفوظ می باشد.
                 </p>
                 <div className="flex gap-6 text-slate-400 text-sm">
                   <a href="#" className="hover:text-blue-400 transition">

@@ -73,8 +73,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-900 mb-1">تلفن</h3>
-                    <a href="tel:09123456789" className="text-slate-600 hover:text-blue-600">
-                      09123456789
+                    <a href="tel:09939189894" className="text-slate-600 hover:text-blue-600">
+                      09939189894
                     </a>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-900 mb-1">آدرس</h3>
-                    <p className="text-slate-600">تهران، ایران</p>
+                    <p className="text-slate-600">همدان، آرامگاه بوعلی، بلوار خواجه رشید، کوچه هواپیمایی، ساختمان سپهر، بطقه دوم</p>
                   </div>
                 </div>
 
@@ -96,7 +96,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold text-slate-900 mb-1">ساعات کاری</h3>
                     <p className="text-slate-600">شنبه تا چهارشنبه</p>
-                    <p className="text-slate-600">9:00 صبح تا 6:00 عصر</p>
+                    <p className="text-slate-600">8:00 صبح تا 6:00 عصر</p>
                   </div>
                 </div>
               </div>
